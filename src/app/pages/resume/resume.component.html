@@ -10,17 +10,7 @@
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="assets/logo.png" alt="Marshall Huckins Logo" class="logo-img" />
-      <div class="logo-text">
-        <h1>Marshall Huckins</h1>
-        <p>Web Developer | Backend Enthusiast | Lifelong Learner</p>
-      </div>
-    </div>
 
-
-  </header>
 
   <main>
     <section class="intro">
@@ -64,28 +54,9 @@
     <p>&copy; 2025 Marshall Huckins</p>
   </footer>
 
-  <button id="theme-toggle" class="download-btn">Toggle Dark Mode</button>
 
-  <a href="assets/marshall-huckins-resume.pdf" download class="floating-resume-btn" id="floating-resume-btn" aria-label="Download Resume">
-    📄 Download Resume
-  </a>
 
-  <script>
-    const toggle = document.getElementById('theme-toggle');
-    toggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
 
-    const floatingBtn = document.getElementById('floating-resume-btn');
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
-        floatingBtn.classList.add('visible');
-      } else {
-        floatingBtn.classList.remove('visible');
-      }
-    });
-  </script>
 
 </body>
 </html>
